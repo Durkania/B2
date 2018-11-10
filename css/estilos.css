@@ -52,13 +52,14 @@ a.main_menu:visited{
 }
 
 .fluid{
-    margin-top: 20px;
     background-color: white;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 @media (max-width: 991px) {
-nav.row a:first-child {
+
+    nav.row a:first-child {
     border-radius: 0;
     }
     nav.row a:last-child {
@@ -67,6 +68,9 @@ nav.row a:first-child {
     .search_{
         display: none;
     }
+    .fluid{
+    border-radius: 0;
+}
 }
 
 
