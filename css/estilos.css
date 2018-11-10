@@ -8,8 +8,16 @@ body{
 }
 .logo-img{
     margin: 20px;
-    width: 100px;
+    width: 200px;
 }
+.icon_menu{
+    text-align: center;
+}
+.marco_icon{
+    margin: 32px 0;
+}
+
+
 .container{
     background-color: white;
     border-radius: 0 0 10px 10px;
@@ -55,6 +63,45 @@ a.main_menu:visited{
     background-color: white;
     border-radius: 10px;
     margin-top: 20px;
+}
+.buscador{
+    background-color: white;
+    border-right: 0;
+}
+.buscador_2{
+    background-color: white;
+    border-left: 0;
+    box-shadow: none;
+}
+.form-control {
+    padding-left: 0;
+}
+.navbar-form{
+    padding: 0;
+}
+.input-group{
+    width: 100%;
+}
+.form-group{
+    width: 100%;
+}
+
+.logo-imgCO1{
+    padding: 0;
+}
+.logo-imgCO2{
+    width: 100%;
+}
+.logo-imgCO3{
+    margin-top: 20px;
+    width: 100%;
+}
+h4{
+    margin-bottom: 20px;
+}
+
+.top{
+    padding-top: 25px;
 }
 
 @media (max-width: 991px) {
