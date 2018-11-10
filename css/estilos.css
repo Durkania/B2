@@ -1,0 +1,72 @@
+body{
+    background-color: darkred;
+}
+.navbar-inverse{
+    background-color: aquamarine;
+    border: none;
+    min-height: 10%;
+}
+.logo-img{
+    margin: 20px;
+    width: 100px;
+}
+.container{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+.navbar {
+      border: none;
+      margin-bottom: 0;
+      min-height: inherit;
+    position: relative;
+}
+.main_menu{
+    background-color: orange;
+    color: darkred;
+    font-size: 0.9em;
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration: none;
+}
+nav.row a:first-child {
+    border-radius: 0 0 0 10px;
+}
+nav.row a:last-child {
+    border-radius: 0 0 10px 0;
+}
+.main_menu:hover{
+    background-color: white;
+    color: darkred;
+    text-decoration: none;
+}
+a.main_menu:link {
+    color: darkred;
+    text-decoration: none;
+}
+a.main_menu:visited{
+    color: darkred;
+    text-decoration: none;
+}
+.container nav .row{
+    border-radius: 0 0 10px 10px;
+}
+
+.fluid{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+nav.row a:first-child {
+    border-radius: 0;
+    }
+    nav.row a:last-child {
+        border-radius: 0;
+    }
+    .search_{
+        display: none;
+    }
+}
+
+
